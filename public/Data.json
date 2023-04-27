@@ -1,0 +1,410 @@
+[
+    {
+        "id": 1,
+        "type": "AMD",
+        "title": {
+            "name": "AMD Ryzen 5 7600X Processor"
+        },
+        "image": "./images/amd-cpu-1.jpg",
+        "features": [
+            "Clock Speed: 4.7GHz Up to 5.3GHz",
+            "Cores: 6, Threads: 12",
+            "L2 Cache: 6MB, L3 Cache: 32MB",
+            "Socket: AM5"
+        ],
+        "price": 31500
+    },
+    {
+        "id": 2,
+        "type": "AMD",
+        "title": {
+            "name": "AMD Ryzen 7 7700X Processor"
+        },
+        "image": "./images/amd-cpu-2.jpg",
+        "features": [
+            "4.5GHz Up to 5.4GHz",
+            "Cores: 8, Threads: 16",
+            "L2 Cache: 8MB, L3 Cache: 32MB",
+            "Socket: AM5"
+        ],
+        "price": 41000
+    },
+    {
+        "id": 3,
+        "type": "AMD",
+        "title": {
+            "name": "AMD Ryzen 9 7900X Processor"
+        },
+        "image": "./images/amd-cpu-3.jpg",
+        "features": [
+            "Clock Speed: 4.7GHz Up to 5.6GHz",
+            "Cores: 12, Threads: 24",
+            "L2 Cache: 12MB, L3 Cache: 64MB",
+            "Socket: AM5"
+        ],
+        "price": 63000
+    },
+    {
+        "id": 4,
+        "type": "AMD",
+        "title": {
+            "name": "AMD Ryzen 9 7950X Processor"
+        },
+        "image": "./images/amd-cpu-4.jpg",
+        "features": [
+            "Clock Speed: 4.5GHz Up to 5.7GHz",
+            "Cores: 16, Threads: 32",
+            "L2 Cache: 16MB, L3 Cache: 64MB",
+            "Socket: AM5"
+        ],
+        "price": 72000
+    },
+    {
+        "id": 5,
+        "type": "Intel",
+        "title": {
+            "name": "Intel 13th Gen Core i5 13500 Raptor Lake Processor"
+        },
+        "image": "./images/intel-cpu-1.jpg",
+        "features": [
+            "Clock Speed: 2.50 GHz up to 4.80 GHz",
+            "CPU Cores: 14, CPU Threads: 20",
+            "Cache: 24 MB, Socket: LGA1700",
+            "Graphics: Intel UHD Graphics 770"
+        ],
+        "price": 28000
+    },
+    {
+        "id": 6,
+        "type": "Intel",
+        "title": {
+            "name": "Intel 13th Gen Core i7 13700K Raptor Lake Processor"
+        },
+        "image": "./images/intel-cpu-2.jpg",
+        "features": [
+            "Clock Speed: 3.40 GHz up to 5.40 GHz",
+            "CPU Cores: 16, CPU Threads: 24",
+            "Cache: 30 MB, Socket: LGA1700",
+            "Graphics: Intel UHD Graphics 770"
+        ],
+        "price": 46499
+    },
+    {
+        "id": 7,
+        "type": "Intel",
+        "title": {
+            "name": "Intel 13th Gen Core i9 13900F Raptor Lake Processor"
+        },
+        "image": "./images/intel-cpu-3.jpg",
+        "features": [
+            "Clock Speed: 2.00 GHz GHz up to 5.60 GHz",
+            "CPU Cores: 24, CPU Threads: 32",
+            "Cache: 36 MB, Socket: LGA1700",
+            "Dual-Channel DDR5-5600 Memory"
+        ],
+        "price": 61500
+    },
+    {
+        "id": 8,
+        "type": "Intel",
+        "title": {
+            "name": "Intel 13th Gen Core i9 13900K Raptor Lake Processor"
+        },
+        "image": "./images/intel-cpu-4.jpg",
+        "features": [
+            "Clock Speed: 3.00 GHz up to 5.80 GHz",
+            "CPU Cores: 24, CPU Threads: 32",
+            "Cache: 36 MB Intel Smart Cache",
+            "Intel UHD Graphics 770"
+        ],
+        "price": 65499
+    },
+    {
+        "id": 9,
+        "type": "AMD",
+        "title": {
+            "name": "MSI MEG X670E ACE DDR5 AMD AM5 E-ATX Motherboard"
+        },
+        "image": "./images/amd-motherboard-1.jpg",
+        "features": [
+            "Supported CPU: Ryzen 7000 Series Processors for Socket AM5",
+            "Supported RAM: 4x DDR5, Max 128GB",
+            "Graphics Output: 1x Type-C Display port",
+            "Features: 10G Super LAN with Wi-Fi 6E solution"
+        ],
+        "price": 98400
+    },
+    {
+        "id": 10,
+        "type": "AMD",
+        "title": {
+            "name": "Asus ROG STRIX X670E-F GAMING WIFI DDR5 AMD AM5 ATX Motherboard"
+        },
+        "image": "./images/amd-motherboard-2.jpg",
+        "features": [
+            "Supported CPU: Ryzen 7000 Series Processors for Socket AM5",
+            "Supported Memory: 4 x DIMM, Max. 128GB, DDR5",
+            "Graphics Output: 1 x DisplayPort, 1 x HDMI port",
+            "Features: 1 x Realtek 2.5Gb Ethernet, Wi-Fi 6E"
+        ],
+        "price": 57400
+    },
+    {
+        "id": 11,
+        "type": "Intel",
+        "title": {
+            "name": "MSI MPG Z790 CARBON WIFI 13th and 12th Gen ATX Motherboard"
+        },
+        "image": "./images/intel-motherboard-1.jpg",
+        "features": [
+            "Supported CPU: 13th /12th Gen Intel Core / Pentium / Celeron processors (LGA 1700)",
+            "Supported RAM: 4x DDR5, Max 128GB, 7600+(OC) MHz",
+            "Graphics Output: 1x HDMI",
+            "Features: 2.5G LAN and Intel Wi-Fi 6E Solution"
+        ],
+        "price": 57900
+    },
+    {
+        "id": 12,
+        "type": "Intel",
+        "title": {
+            "name": "GIGABYTE Z690 AORUS ELITE AX DDR5 12th Gen WiFi ATX Motherboard"
+        },
+        "image": "./images/intel-motherboard-2.jpg",
+        "features": [
+            "LGA1700 socket for 12th Gen Intel Core, Pentium Gold and Celeron Processors",
+            "Dual Channel Non-ECC Unbuffered DDR5, 4 DIMMs",
+            "WIFI 6 802.11ax 2T2R & BT5 with AORUS Antenna",
+            "4 x Ultra-Fast NVMe PCIe 4.0/3.0 x4 M.2"
+        ],
+        "price": 33680
+    },
+    {
+        "id": 13,
+        "type": "Intel",
+        "title": {
+            "name": "Asus ROG MAXIMUS Z690 FORMULA 12th Gen ATX Motherboard"
+        },
+        "image": "./images/intel-motherboard-3.jpg",
+        "features": [
+            "LGA 1700 for 12th Gen Intel Core, Pentium Gold, and Celeron processors",
+            "Celeron processors 20+1 teamed power stages rated for105 A",
+            "Onboard WiFi 6E, Marvell AQtion 10 Gb Ethernet",
+            "PCIe 5.0, dual Gen 4 M.2 onboard"
+        ],
+        "price": "28560"
+    },
+    {
+        "id": 14,
+        "type": "Intel",
+        "title": {
+            "name": "Asus ROG STRIX Z690-E GAMING WIFI Intel 12th Gen ATX Motherboard"
+        },
+        "image": "./images/intel-motherboard-4.jpg",
+        "features": [
+            "Intel LGA 1700 socket: Ready for 12th Gen Intel processors",
+            "18+1 power stages with 8+8 ProCool II power connectors",
+            "Integrated I/O cover and VRM heatsinks",
+            "On-board Intel WiFi 6E (802.11ax)"
+        ],
+        "price": "43689"
+    },
+    {
+        "id":15,
+        "type": "AMD",
+        "title":{
+            "name":"Asus ROG Strix TRX40-XE Gaming AMD Motherboard"
+        },
+        "image":"./images/amd-motherboard-3.jpg",
+        "features":[
+            "For the latest 3rd Gen AMD Ryzen Threadripper series processors",
+            "Comprehensive cooling",
+            "Best gaming connectivity",
+            "High fidelity audio with SupremeFX S1220"
+        ],
+        "price":""
+    },
+    {
+        "id":16,
+        "type": "AMD",
+        "title":{
+            "name":"MSI MAG B550M MORTAR MAX WIFI AMD AM4 Micro-ATX Motherboard"
+        },
+        "image":"./images/amd-motherboard-3.jpg",
+        "features":[
+            "Supported CPU: Ryzen 5000, 5000 G, 4000G, and 3000 Series processors ",
+            "Supported RAM: 4x DDR4, up to 128GB, 4400+(OC) MHz ",
+            "Graphics Output: 1x HDMI, 1x DisplayPort ",
+            "Features: Realtek RTL8125B 2.5G LAN"
+        ],
+        "price":"19200"
+    },
+    {
+        "id":17,
+        "title":{
+            "name":"NZXT Kraken Z73 RGB 360mm All-in-One Liquid CPU Cooler White"
+        },
+        "image":"./images/intel-cooler-1.jpg",
+        "features":[
+            "24-bit true-color 2.36' LCD screen",
+            "3 x Aer RGB 2 120mm Fan ",
+            "Fan speed: 500 - 1,500 ± 300RPM ",
+            "Compatible with Intel and AMD"
+        ],
+        "price":"30999"
+    },
+    {
+        "id":18,
+        "title":{
+            "name":"NZXT Kraken Z73 RGB 360mm All-in-One Liquid CPU Cooler"
+        },
+        "image":"./images/intel-cooler-2.jpg",
+        "features":[
+            "32-bit true-color 2.36' LCD screen ",
+            "3 x Aer RGB 2 120mm Fan ",
+            "Fan speed: 600 - 1,900 ± 400RPM ",
+            "Compatible with Intel"
+        ],
+        "price":34969
+    },
+    {
+        "id":19,
+        "title":{
+            "name":"NZXT Kraken Z53 RGB LCD 240mm All-in-One Liquid CPU Cooler White"
+        },
+        "image":"./images/intel-cooler-3.jpg",
+        "features":[
+            "All-new 7th Gen Asetek pump ",
+            "24-bit true-color 1.58' LCD screen ",
+            "2 x Aer RGB 2 120mm Fans",
+            "Fan Speed: 500 - 1,500 + 300 RPM"
+        ],
+        "price":23799
+    },
+    {
+        "id":20,
+        "title":{
+            "name":"Sapphire Nitro+ S360-A AIO ARGB CPU Cooler"
+        },
+        "image":"./images/amd-cooler-1.jpg",
+        "features":[
+            "Support Sockets: AMD AM4, Intel LGA 115X/ 1200/ 20XX, LGA 1700",
+            "NITRO+ Hybrid Fan Blade Design ",
+            "ARGB on Pump Cap & Radiator Fans ",
+            "ARGB Pass-Through Connector"
+        ],
+        "price":14900
+    },
+    {
+        "id":21,
+        "title":{
+            "name":"Thermaltake Floe Riing RGB 360 TT Premium Edition CPU Cooler"
+        },
+        "image":"./images/amd-cooler-2.jpg",
+        "features":[
+            "High-Performance Waterblock and Durable Sleeved Cable",
+            "High-Reliability Pump ",
+            "High-Efficiency Radiator ",
+            "Digital Lighting Controller"
+        ],
+        "price":16999
+    },
+    {
+        "id":22,
+        "title":{
+            "name":"Asus ROG Ryujin 240 RGB AIO Liquid CPU Cooler"
+        },
+        "image":"./images/amd-cooler-3.jpg",
+        "features":[
+            "Quality Noctua Industrial PPC PWM Fans ",
+            "Embedded Micro-Fan ",
+            "1.77' color OLED Display ",
+            "Reinforced, Sleeved Tubing"
+        ],
+        "price":24699
+    },
+    {
+        "id":23,
+        "title":{
+            "name":"ZOTAC GAMING GeForce RTX 4090 Trinity 24GB GDDR6X Graphics Card"
+        },
+        "image":"./images/n-gpu-1.jpg",
+        "features":[
+            "Boost: 2520 MHz ",
+            "CUDA Cores: 16384 ",
+            "Video Memory: 24GB GDDR6X ",
+            "Memory Bus: 384-bit, Memory Clock: 21 Gbps"
+        ],
+        "price":214900
+    },
+    {
+        "id":24,
+        "title":{
+            "name":"Colorful iGame GeForce RTX 4080 16GB Vulcan OC-V GDDR6X Graphics Card"
+        },
+        "image":"./images/n-gpu-2.jpg",
+        "features":[
+            "Core Clock: Base:2205Mhz; Boost:2640Mhz (OC) ",
+            "Memory Speed Grade: 22.4Gbps",
+            "Manufacturing Process: 4nm",
+            "Output: 3x DP + HDMI"
+        ],
+        "price":"193000"
+    },
+    {
+        "id":25,
+        "title":{
+            "name":"PNY GeForce RTX 4070 Ti 12GB XLR8 Gaming Verto TF OC GDDR6X Graphics Card"
+        },
+        "image":"./images/n-gpu-3.jpg",
+        "features":[
+            "Core Clock: Base: 2310 MHz; Boost: 2670 MHz",
+            "Memory Speed: 21 Gbps ",
+            "Memory Interface: 192-bit ",
+            "Output: 3x DisplayPort, 1x HDMI"
+        ],
+        "price":119900
+    },
+    {
+        "id":26,
+        "title":{
+            "name":"Sapphire Radeon RX 7900 XT Gaming 20GB GDDR6 Graphics Card"
+        },
+        "image":"./images/a-gpu-1.jpg",
+        "features":[
+            "Game Clock: 2000MHz, Boost Clock: 2400MHz ",
+            "Memory Clock: 20 Gbps effective ",
+            "Memory Interface: 320-Bit ",
+            "Output: 1x HDMI, 2x DisplayPort, 1x Type-C"
+        ],
+        "price":"110999"
+    },
+    {
+        "id":27,
+        "title":{
+            "name":"MSI Radeon RX 6900 XT Gaming Z Trio 16GB GDDR6 Graphics Card"
+        },
+        "image":"./images/a-gpu-2.jpg",
+        "features":[
+            "Cool and Quiet ",
+            "Memory: 16GB GDDR6 ",
+            "Memory Bus: 256-bit ",
+            "Interface: PCI Express 4.0"
+        ],
+        "price":131999
+    },
+    {
+        "id":28,
+        "title":{
+            "name":"ASUS Dual Radeon RX 6600 8GB GDDR6 Graphics Card"
+        },
+        "image":"./images/a-gpu-3.jpg",
+        "features":[
+            "OC mode : up to 2491 MHz (Boost Clock)/up to 2064 MHz (Game Clock) ",
+            "Axial-tech fan design & Dual ball fan bearings",
+            "Auto-Extreme Technology ",
+            "Protective backplate"
+        ],
+        "price":48799
+    }
+]
