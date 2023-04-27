@@ -8,7 +8,7 @@ const Product_Provider = ({ children }) => {
   const [products, setProducts] = useState([]);
   
   useEffect(() => {
-    fetch("Data.json")
+    fetch("https://mocki.io/v1/535c90e9-d045-4d9a-9235-9f0937f5273a")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -81,7 +81,7 @@ const Product_Provider = ({ children }) => {
     setPage(product)
   } 
 
-  console.log(page)
+  // console.log(page)
 
   // console.log(cart);
   return (

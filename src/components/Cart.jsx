@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { Product_Context } from "../context/Product_Context";
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from "react-icons/ai";
-import {MdOutlineRemoveShoppingCart} from "react-icons/md"
+import { MdOutlineRemoveShoppingCart } from "react-icons/md";
 
 const Cart = () => {
-  const { cart, incrementQuantity, decrementQuantity,removeItem} =
+  const { cart, incrementQuantity, decrementQuantity, removeItem } =
     useContext(Product_Context);
 
   return (
@@ -57,7 +57,12 @@ const Cart = () => {
                 </tr>
               </tbody>
             </table>
-            <button className="flex gap-2 border px-3 py-2 rounded-lg bg-red-400 font-semibold outline duration-300 text-white hover:bg-red-500 focus:outline-1 focus:outline-red-500" onClick={() => removeItem(item.id)}>Delete <MdOutlineRemoveShoppingCart className="text-xl "/></button>
+            <button
+              className="flex gap-2 border px-3 py-2 rounded-lg bg-red-400 font-semibold outline duration-300 text-white hover:bg-red-500 focus:outline-1 focus:outline-red-500"
+              onClick={() => removeItem(item.id)}
+            >
+              Delete <MdOutlineRemoveShoppingCart className="text-xl " />
+            </button>
           </div>
         );
       })}
