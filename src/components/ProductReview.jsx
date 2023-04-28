@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { Product_Context } from "../context/Product_Context";
 import { FaCartArrowDown } from "react-icons/fa";
 import {IoIosAdd , IoIosRemove} from "react-icons/io"
-import { useParams } from "react-router-dom";
 
 const ProductReview = () => {
   const {cart, page,addToCart, incrementQuantity,decrementQuantity} = useContext(Product_Context);

@@ -7,6 +7,7 @@ const Cart = () => {
   const { cart, incrementQuantity, decrementQuantity, removeItem } =
     useContext(Product_Context);
 
+
   return (
     <div className="flex flex-col gap-5 p-8">
       {cart.map((item) => {
@@ -52,7 +53,7 @@ const Cart = () => {
                     </div>
                   </td>
                   <td className="px-6 py-4 text-[17px]">
-                    {item.price * item.quantity} Taka
+                    {Number(item.price * item.quantity)} Taka
                   </td>
                 </tr>
               </tbody>
